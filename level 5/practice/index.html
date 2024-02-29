@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>level 5</title>
+    <script src="https://kit.fontawesome.com/e8ea4c2b0e.js" crossorigin="anonymous"></script>
+    <style>
+        *{margin: 0; padding: 0;}
+        .navbox{
+            height: 100px;
+            width: 100px;
+            margin: 5px;
+            padding: 5px;
+            box-sizing: border-box;
+            border: 2px solid black;
+            background-color: rgb(50, 165, 42);
+
+            position: relative;
+        }
+        #homebox{
+            text-decoration: red;
+            font-size: 25px;
+            font-style: italic;
+            font-weight: 200;
+        }
+        #linksbox{
+            text-decoration: red;
+            font-size: 25px;
+            font-style: italic;
+            font-weight: 200;
+        }
+        #projectsbox{
+            text-decoration: red;
+            font-size: 25px;
+            font-style: italic;
+            font-weight: 200;
+            font-weight: 200;
+        }
+        #contactsbox{
+            text-decoration: red;
+            font-size: 25px;
+            font-style: italic;
+            font-weight: 200;
+        }
+        #MainFirstDiv{
+            height: 400px;
+            width: 600px;
+            background-color: greenyellow;
+            text-align: center;
+            font-size: 100px;
+            margin: 15px 15px 10px 10px;
+            border: 5px solid black;
+            border-radius: 20px;
+            /* z-index: 3; */
+        }
+        .ContainerDiv{
+            height: 60px;
+            width: 80px;
+            margin: 10px;
+            background-color: blue;
+            text-align: center;
+            /* text-decoration: violet; */
+            display: inline;
+            /* display: none; */
+            font-size: 50px;
+        }
+        #Div1{
+            /* text-decoration: violet; */
+            /* font-size: 50px; */
+            /* position: relative;
+            top: 30px;
+            left: 30px; */
+
+        }
+        #Div2{
+            /* top: 60px;
+            left: 30px;
+            position: absolute;
+            z-index: 5; */
+        }
+        #Div3{
+            /* top: 50px;
+            left: 30px;
+            position: fixed;
+            z-index: 2; */
+        }
+        footer{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-center">
+            <nav>
+                <a class="navbox" id="homebox" href="#">home</a>
+                <a class="navbox" id="linksbox" href="#">links</a>
+                <a class="navbox" id="projectsbox" href="#">projects</a>
+                <a class="navbox" id="contactsbox" href="#">contacts</a>
+            </nav>
+        </div>
+    </header>
+    <article>
+        <div id="MainFirstDiv">
+            MainFirstDiv
+
+        </div>
+
+        <div id="Div1" class="ContainerDiv">firstDiv</div>
+        <div id="Div2" class="ContainerDiv">secondDiv</div>
+        <div id="Div3" class="ContainerDiv">thiredDiv</div>
+    </article><br><br>
+    <hr>
+    <footer id="footer">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam error et natus consequatur minima amet recusandae, autem repellat corrupti ipsam perferendis optio placeat porro beatae officiis. Eligendi modi possimus natus?</p>
+    </footer>
+</body>
+</html>
